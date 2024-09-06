@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>태그</title>
+    <style>
+        
+        /*주석 : 메모 
+        alt + shift + a */
+        /* 선택자 {속성:속성값;} */
+        /* h1 {color: red;} */
+
+        img {
+            width: 200px; /* 가로 : 200px */
+            display: block; /* 세로로 나열 */
+        }
+        a {
+            display: block;
+            color: #000000;
+            text-decoration: none; 
+            /* 글자 선 : 없애기 */
+        }
+        /* alt + shift + a */
+        
+        /* class="menu"     
+        .menu */
+        ul li.menu {
+            background-color: #ff9500;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- 블록요소 h1 ~ div -->
+    <h1>제목 태그1 로고 사용</h1>
+    <h2>제목 태그2</h2>
+    <h3>제목 태그3</h3>
+    <h4>제목 태그4</h4>
+    <h5>제목 태그5</h5>
+    <h6>제목 태그6</h6>
+
+    <p>p태그 기본 텍스트, 본문 내용, 설명</p>
+
+    <ul>
+        <li>ul안에 li태그</li>
+        <li class="menu">메뉴, 카테고리 등 사용</li>
+        <li>리스트 태그</li>
+        <li>ul안에는 li만 작성가능</li>
+        <li>li안에는 모든 태그 적용가능</li>
+    </ul>
+
+    <ol>
+        <li>ol 안에 li</li>
+        <li>레시피, 연혁 등 사용</li>
+    </ol>
+
+    <dl>
+        <dt>제목</dt>
+        <dd>제목에 대한 정의, 설명</dd>
+        <dd>dl안에는 dt, dd만 작성가능</dd>
+    </dl>
+
+    <div>div는 그룹화 시켜주는 태그</div>
+
+     
+        <!-- 블록 안에 인라인 적용
+        <div><span></span></div>
+
+        인라인 안에 블록 적용 불가능
+        <span><div></div></span>
+
+        a태그(인라인 요소) 예외
+        a안에 블록요소 적용 가능 -->
+        
+
+     
+   
+    <!-- 인라인 요소 a ~ span -->
+    <a href="https://www.naver.com/">a태그는 링크연결</a>
+    <a href="https://www.naver.com/" target="_blank">네이버 이동</a>
+
+    <img src="img/이미지1.jpg" alt="이미지 설명" />
+    
+    <strong>strong 내용강조 텍스트 굵게 표현</strong>
+    <b>b 장식적인 요소 텍스트 굵게 표현</b>
+
+    <em><span style="color: red;">em</span> 내용강조 텍스트 기울기</em>
+    <i>i 장식적인 요소 텍스트 기울기</i>
+
+    <span>span 의미없음. 텍스트 사이에 다른 스타일 적용할 때 사용</span>    
+
+    
+</body>
+</html>

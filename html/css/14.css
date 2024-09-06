@@ -1,0 +1,64 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.section {
+    width: 1280px;
+    background-color: rgb(200, 255, 0);
+    margin: 50px auto;
+}
+.section h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.section .item_list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    /* 자식들 밑으로 내려주기 */
+
+    row-gap: 50px; 
+    /* 아이템 위아래 사이 간격 */
+}
+.section .item_list .item {
+    width: 408px;
+    /* margin-bottom: 50px; */
+}
+/* 이미지 크기 408x408 */
+.section .item_list .item .image {
+    /* width: 100%; */
+    height: 408px;
+    position: relative;
+}
+.section .item_list .item .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section .item_list .item .image span {
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.section .item_list .item .text strong {
+    font-size: 20px;
+    margin-top: 10px;
+    display: block;
+}
+.section .item_list .item .text strong span {
+    color: red;
+    margin-right: 20px;
+}

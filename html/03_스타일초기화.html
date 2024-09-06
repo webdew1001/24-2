@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스타일 초기화</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+            /* inherit : 부모값 상속 */    
+        }
+        li {
+            list-style: none;
+            /* 블릿(동그라미, 숫자 등) : 없애기*/
+        }
+         
+        .box01 a {
+            width: 150px;
+            height: 50px;
+            background-color: rgb(160, 160, 27);
+            display: block;  
+            margin: 10px;  
+            text-align: center;
+            line-height: 50px; 
+        }
+        .box01 a:hover {
+            background-color: yellow;
+        }
+        .box02 a {
+            transition: 0.7s;
+            width: 100px;
+            height: 100px;
+            background-color: teal;
+            color: white;
+            text-align: center;
+            line-height: 100px;
+            display: block;
+            /* 가로 : 100px;
+            세로 : 100px;
+            배경색 : 값;
+            글자색 : 값;
+            글자가로 가운데 정렬;
+            글자세로 가운데 정렬 */
+        }
+        .box02 a:hover {
+            background-color: coral;
+            border-radius: 50%;
+              
+        }
+    </style>
+</head>
+<body>
+    <div class="box01">
+        <a href="#">버튼만들기</a>
+        <a href="#">바로가기</a>
+    </div>
+
+    <div class="box02">
+        <a href="#">바로가기2</a>
+        <ul>
+            <li>메뉴 1</li>
+            <li>메뉴 2</li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>여백(margin+padding)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        div {
+            /* 가로 200px
+            세로 200px
+            배경색 */
+            width: 200px;
+            height: 200px;
+            background-color: royalblue;
+            border: 1px solid #000;            
+            /* 테두리 : 두께 스타일 컬러 */
+
+        }
+        .margin-01 {
+            margin: 50px;
+        }
+        .margin-02 {
+            margin: 100px 50px;
+        }
+        .margin-03 {
+            margin: 100px 50px 10px;
+        }
+        .margin-04 {
+            margin: 150px 100px 50px 10px;
+            margin-left: 50px;
+        }
+
+        .padding-01 {
+            padding: 50px;
+            box-sizing: border-box;
+        }
+        .padding-02 {
+            padding: 10px 50px;
+            box-sizing: border-box;
+        }
+        .padding-03 {
+            padding: 60px 20px 10px;
+            box-sizing: border-box;
+        }
+        .padding-04 {
+            padding-right: 100px;
+            box-sizing: border-box;
+        }
+
+    </style>    
+</head>
+<body>
+    <h1>외부여백 margin</h1>
+    <div class="margin-01">margin01</div>
+    <div class="margin-02">margin02</div>  
+    <div class="margin-03">margin03</div>
+    <div class="margin-04">margin04</div>
+
+    <h1>내부여백 padding</h1>
+    <div class="padding-01">padding01</div>
+    <div class="padding-02">padding02</div>
+    <div class="padding-03">padding03</div>
+    <div class="padding-04">padding04</div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지포함</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .box-01 {
+            width: 1280px;
+            height: 1280px;
+            background-color: rgb(255, 202, 133);
+            margin: 0 auto;            
+        }
+        .box-01 img {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+           
+        }
+        .box-01 h1 {
+            font-size: 60px;
+            text-align: center;
+            margin-top: 200px;
+        }
+
+        .box-02 {
+            width: 1000px;
+            margin: 100px auto;
+        }
+        .box-02 img {
+            width: 100%;
+            display: block;
+        }
+        .box-02 h1 {
+            background-color: tan;
+            font-size: 60px;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .box-03 {
+            width: 1000px;
+            margin: 100px auto;
+        }
+        .box-03 img {
+            width: 100%;
+            display: block;
+        }
+        .box-03 h1 {
+            background-color: greenyellow;
+            font-size: 60px;
+            text-align: center;
+            padding: 50px;
+        }
+        .box-03:hover h1 {
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="box-01">
+        <img src="img/02-화장품이미지.jpg" alt="토리든 이미지" />
+        <h1>이미지에 대한 제목</h1>        
+    </div>
+
+    <hr /> <!-- alt + shift + a -->
+
+    <div class="box-02">
+        <a href="#">
+            <img src="img/올리브영-이즈앤트리.jpg" alt="이즈앤트리 상품 이미지" />
+            <h1>🌹이즈앤트리</h1>
+        </a>
+    </div>
+
+    <hr />
+
+    <div class="box-03">
+        <img src="img/올리브영-구달.jpg" alt="">
+        <h1>구달</h1>
+    </div>
+ 
+
+</body>
+</html>

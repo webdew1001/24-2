@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배경이미지</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .bg-01 {
+            height: 100vh; 
+            /* vh = 브라우저 높이 기준 */
+            background-color: rgb(255, 212, 156);
+            background-image: url('img/마몽드_상품배경.jpg');            
+            background-size: cover;  
+            /* contain : 비율에 따라 한쪽만 채워짐
+            cover : 가로, 세로 전체 채워짐, 
+            비율 조절로 한쪽 짤리는 경우가 있음 
+            px, % 사용가능*/
+            background-position: center center;
+            /*  x축 y축 이동
+            top, bottom / left, right / center
+            px, % (ex 100px -100px) */
+            background-repeat: no-repeat;          
+            /* repeat-x : 가로로 이미지 반복*/            
+            /* repeat-y : 세로로 이미지 반복*/            
+            /* no-repeat : 이미지 반복 x */            
+        }
+        
+        .bg-02 {
+            background: url('img/이미지1.jpg') center center / cover no-repeat #ff0000 fixed;
+            /* 배경 : 경로 위치x축 y축 / 사이즈 이미지반복 색상  */            
+            margin: 50px 0;   
+            height: 100vh;       
+            /* background-attachment: fixed;  */  /* 배경고정 */
+        }
+        .bg-03 {
+            height: 100vh;
+            background: url('img/마몽드_상품배경.jpg') center center / cover no-repeat;
+            background-attachment: fixed;            
+            display: flex;
+            align-items: center;
+            /* 수직정렬 : 가운데 */
+        }
+        .bg-03 h1 {
+            width: 1280px;
+            background-color: rgb(0, 0, 0);
+            color: white;  
+            margin: 0 auto;          
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-01">
+        <h1>배경이미지1</h1>
+    </div><!-- .bg-01 end -->
+    
+    <div class="bg-02">
+        <h1>배경이미지2</h1>
+    </div><!-- .bg-01 end -->
+
+    <div class="bg-03">
+        <h1>배경이미지3</h1>
+    </div><!-- .bg-01 end -->
+</body>
+</html>

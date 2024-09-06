@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모서리곡선</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        ul li {
+            width: 200px;
+            height: 200px;
+            background-color: royalblue;
+            margin: 50px; 
+        }
+        ul li.radius-01 {
+            border-radius: 10px;
+        }
+        ul li.radius-02 {
+            border-radius: 10px 50px;
+        }
+
+        ul li.radius-03 {
+            border-radius: 10px 40px 80px;
+        }
+        ul li.radius-04 {
+            border-radius: 10px 50px 100px 200px;
+        }
+        ul li.radius-05 {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="radius-01"></li>
+        <li class="radius-02"></li>
+        <li class="radius-03"></li>
+        <li class="radius-04"></li>
+        <li class="radius-05"></li>
+    </ul>
+</body>
+</html>

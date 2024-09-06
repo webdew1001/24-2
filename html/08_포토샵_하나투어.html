@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포토샵 하나투어</title>
+    <style>
+        /* 눈누 / 폰트 프리텐다드 연결
+        item에게 프리텐다드 적용 */
+        @font-face {
+            font-family: 'Pretendard-Regular';
+            src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+            font-weight: 400;
+            font-style: normal;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .wrap {
+            width: 1280px;
+            background-color: blanchedalmond;
+            margin: 0 auto;  
+            
+            display: flex; 
+            /* 자식들 가로로 나열 */
+            justify-content: space-between; 
+            /* 수평정렬 : 양끝에 붙여서 정렬,
+            사이간격 일정하게 발생
+            display:felx가 있을때만 사용가능! */
+
+        }
+        .item {
+            width: 305px;
+            background-color: aquamarine;
+            font-family: 'Pretendard-Regular';
+        }
+        .item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .item .text h1 {
+            font-size: 20PX;
+            /* 위로여백 : 20px*/
+            margin-top: 20px;
+        }
+        .item .text p {
+            font-size: 16px;
+            /* 위로여백: 10px */
+            margin-top: 10px;
+        }
+        .item .text strong {
+            font-size: 28px;
+            /* 위로여백: 25px */
+            margin-top: 25px;
+            display: block;
+        }
+       
+        /* h1에게 폰트크기 : 20px */
+        /* p에게 폰트크기 : 16px */
+        /* strong에게 폰트크기 : 28px */
+
+       
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="item">
+            <img src="img/오키나와.jpg" alt="오키나와" />
+            <div class="text">
+                <h1>오키나와3, 4일</h1>
+                <p>항공 + 보험 VS 에어텔 VS 패키지</p>
+                <strong>189,000원~</strong>
+            </div><!-- .text -->
+        </div><!-- .item -->
+
+        <div class="item">
+            <img src="img/여강.jpg" alt="여강/곤명 5,6일" />
+            <div class="text">
+                <h1>여강/곤명 5,6일</h1>
+                <p>효도협전망대</p>
+                <strong>739,000원~</strong>
+            </div><!-- .text -->
+        </div><!-- .item -->
+
+        <div class="item">
+            <img src="img/규슈.jpg" alt="규슈 3,4일" />
+            <div class="text">
+                <h1>규슈 3,4일</h1>
+                <p>항공+보험 VS 패키지</p>
+                <strong>119,900원~</strong>
+            </div><!-- .text -->
+        </div><!-- .item -->
+        <div class="item">
+            <img src="img/다낭.jpg" alt="다낭" />
+            <div class="text">
+                <h1>다낭 5일</h1>
+                <p>신규오픈 5성호텔</p>
+                <strong>299,000원~</strong>
+            </div><!-- .text -->
+        </div><!-- .item -->
+    </div>
+    
+    <div class="wrap-02">
+        <div class="item-02">
+            <img src="img/" />
+            <div class="text">
+                <h1></h1>
+                <p></p>
+                <strong></strong>
+            </div><!-- .text end -->
+        </div><!-- .item end -->
+
+        <div class="item">
+            <img src="img/" />
+            <div class="text">
+                <h1></h1>
+                <p></p>
+                <strong></strong>
+            </div><!-- .text end -->
+        </div><!-- .item end -->
+
+        <div class="item">
+            <img src="img/" />
+            <div class="text">
+                <h1></h1>
+                <p></p>
+                <strong></strong>
+            </div><!-- .text end -->
+        </div><!-- .item end -->
+
+        <div class="item">
+            <img src="img/" />
+            <div class="text">
+                <h1></h1>
+                <p></p>
+                <strong></strong>
+            </div><!-- .text end -->
+        </div><!-- .item end -->
+
+    </div><!-- .wrap2 end -->
+</body>
+</html>

@@ -1,0 +1,106 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'gmarketsans';
+    src: url('font/g마켓산스/GmarketSansMedium.eot');
+    src: url('font/g마켓산스/GmarketSansMedium.eot?#iefix') format('embedded-opentype'),
+        url('font/g마켓산스/GmarketSansMedium.woff2') format('woff2'),
+        url('font/g마켓산스/GmarketSansMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'gmarketsans';
+    src: url('font/g마켓산스/GmarketSansBold.eot');
+    src: url('font/g마켓산스/GmarketSansBold.eot?#iefix') format('embedded-opentype'),
+        url('font/g마켓산스/GmarketSansBold.woff2') format('woff2'),
+        url('font/g마켓산스/GmarketSansBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'gmarketsans';
+    src: url('font/g마켓산스/GmarketSansLight.eot');
+    src: url('font/g마켓산스/GmarketSansLight.eot?#iefix') format('embedded-opentype'),
+        url('font/g마켓산스/GmarketSansLight.woff2') format('woff2'),
+        url('font/g마켓산스/GmarketSansLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Aggro';
+    src: url('font/어그로/OTAggroRA.eot');
+    src: url('font/어그로/OTAggroRA.eot?#iefix') format('embedded-opentype'),
+        url('font/어그로/OTAggroRA.woff2') format('woff2'),
+        url('font/어그로/OTAggroRA.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aggro';
+    src: url('font/어그로/OTAggroBA.eot');
+    src: url('font/어그로/OTAggroBA.eot?#iefix') format('embedded-opentype'),
+        url('font/어그로/OTAggroBA.woff2') format('woff2'),
+        url('font/어그로/OTAggroBA.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aggro';
+    src: url('font/어그로/OTAggroLA.eot');
+    src: url('font/어그로/OTAggroLA.eot?#iefix') format('embedded-opentype'),
+        url('font/어그로/OTAggroLA.woff2') format('woff2'),
+        url('font/어그로/OTAggroLA.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.font p {
+    font-size: 50px;
+    font-family: 'gmarketsans';
+}
+.font p:first-child {
+    font-weight: 300;
+}
+.font p:nth-child(2) {
+    font-weight: 500;
+}
+.font p:last-child {
+    font-weight: bold;
+}
+
+.font-02 p {
+    font-size: 50px;
+    font-family: 'Aggro';
+}
+.font-02 p:first-child {
+    font-weight: 300;
+}
+.font-02 p:nth-child(2) {
+    font-weight: 500;
+}
+.font-02 p:nth-child(3) {
+    font-weight: 700;
+}

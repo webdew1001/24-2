@@ -1,0 +1,33 @@
+@font-face {
+    font-family: '';
+    src: url('OTAggroRA.eot');
+    src: url('OTAggroRA.eot?#iefix') format('embedded-opentype'),
+        url('OTAggroRA.woff2') format('woff2'),
+        url('OTAggroRA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('OTAggroBA.eot');
+    src: url('OTAggroBA.eot?#iefix') format('embedded-opentype'),
+        url('OTAggroBA.woff2') format('woff2'),
+        url('OTAggroBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('OTAggroLA.eot');
+    src: url('OTAggroLA.eot?#iefix') format('embedded-opentype'),
+        url('OTAggroLA.woff2') format('woff2'),
+        url('OTAggroLA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
